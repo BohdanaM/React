@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+ul {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  width: 8%;
+  background-color: #097af3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.App {
+  background-color: white;
+  color: black;
+}
+
+.App.dark {
+  background-color: #302e2e;
+  color: white;
+}
+
+header {
+  background: #9ba8c2;
+  padding: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li {
+  color: rgb(246, 243, 243);
+}
+
+header button {
+  background: #a6d6e6;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background: #0871b3;
+}
