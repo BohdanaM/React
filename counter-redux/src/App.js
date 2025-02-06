@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { increment, decrement } from "./actions";
+import { increment, decrement } from "./redux/actions";
 import "./App.css";
 
 const App = () => {
