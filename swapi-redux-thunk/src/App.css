@@ -1,0 +1,32 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #0f64ec;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.clear-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f5693e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: left;
+}
