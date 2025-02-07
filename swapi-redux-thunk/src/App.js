@@ -1,12 +1,12 @@
 import React from "react";
 import StarWarsInfo from "./components/StarWarsInfo";
 
-function App() {
+const App = () => {
   return (
-    <div>
+    <div className="min-h-screen flex items-center justify-center bg-gray-200">
       <StarWarsInfo />
     </div>
   );
-}
+};
 
 export default App;
