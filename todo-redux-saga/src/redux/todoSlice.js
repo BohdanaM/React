@@ -10,12 +10,12 @@ const todoSlice = createSlice({
   name: "todos",
   initialState,
   reducers: {
-    addTodoRequest: (state, action) => {},
-    loadTodosRequest: (state) => {},
-    removeTodoRequest: (state, action) => {},
-    toggleTodoRequest: (state, action) => {},
-    editTodoRequest: (state, action) => {},
-    clearTodosRequest: (state) => {},
+    addTodoRequest: (state) => state,
+    loadTodosRequest: (state) => state,
+    removeTodoRequest: (state) => state,
+    toggleTodoRequest: (state) => state,
+    editTodoRequest: (state) => state,
+    clearTodosRequest: (state) => state,
 
     setTodos: (state, action) => {
       state.todos = action.payload;
